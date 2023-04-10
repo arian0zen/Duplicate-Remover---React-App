@@ -31,7 +31,7 @@ This project was built using the following technologies:
 - ReactJS
 - JavaScript
 - CSS
-- A react package named - color-hash
+- A react package named `color-hash`
 
 ## Contributing
 

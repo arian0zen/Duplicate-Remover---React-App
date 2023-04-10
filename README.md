@@ -19,6 +19,8 @@ On the first screen of the app, the user is presented with an input field and a 
 If the input field is empty or contains only space characters, the user will be shown an alert asking them to provide a non-empty value. In this scenario, the user will not be redirected to the second screen.
 
 On the second screen, each character of the input string is rendered as a card on the UI. Each card has the character and a delete icon on top. Clicking on the delete icon deletes all duplicate instances of the chosen character in the string. Only the clicked instance of the character remains on the screen.
+- Let's say if the original string is `aabcaccda`. Clicking on the first `a` should leave the string as `abcccd`.
+Let's say the original string is `baebdeb`. Clicking on the character b at index 3 (0 index), should result in `aebde`.
 
 Cards for the same characters have the same background color. If there are no more characters with greater than 1 appearance in the string, a success header is displayed. The original string and the new resultant string are also shown. The user can go back to the first screen by clicking the back button.
 

@@ -42,5 +42,6 @@ Contributions to this project are welcome! If you would like to contribute, plea
 5. Submit a pull request to this repository with a description of your changes.
 
 n.b : I used an npm package named color-hash to generate same colour background for every same string charecter, though in the display.js file you will see three function: getRandomColor(), uniqueChars(), elementColors() these combined were supposed to do the task that color-hash in doing.. you guys work around that :)
-## License
+## Project Idea
+https://github.com/HousewareHQ/frontend-engineering-octernship
 
